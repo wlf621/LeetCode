@@ -9,10 +9,9 @@
             "command": "C:/Program Files/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "-g", "${file}",
+                "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I", "${workspaceFolder}"
             ],
             "options": {
                 "cwd": "C:/Program Files/mingw64/bin"
