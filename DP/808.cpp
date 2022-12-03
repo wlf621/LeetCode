@@ -1,4 +1,4 @@
-#include "inc1.h"
+#include "inc.h"
 
 // dp(i,j)= 1/4 × (dp(i−4,y) + dp(i−3,y−1) + dp(i−2,y−2) + dp(i−1,y−3))
 
