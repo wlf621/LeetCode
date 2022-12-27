@@ -9,7 +9,9 @@
 			"cmath": "cpp",
 			"vector": "cpp",
 			"string": "cpp",
-			"iostream": "cpp"
+			"iostream": "cpp",
+			"deque": "cpp",
+			"*.tcc": "cpp"
 		}
 	}
 }
