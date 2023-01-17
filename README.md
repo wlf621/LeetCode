@@ -13,8 +13,8 @@
 | [1814. 统计一个数组中好对子的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-nice-pairs-in-an-array/) | 哈希表 | 中等 | [代码链接](./HashMap/1814.cpp) |
 | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/) | 动态规划 | 中等 |  [代码链接](./DP/764.cpp)  |
 | [808. 分汤](https://leetcode.cn/problems/soup-servings/)     | 动态规划 | 中等 |  [代码链接](./DP/808.cpp)  |
-| [1803. 统计异或值在范围内的数对有多少 - 力扣（LeetCode）](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/) | 字典树 | 困难 | 未解 |
 | [1799. N 次操作后的最大分数和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-score-after-n-operations/) | 动态规划 | 困难 | 未解 |
+| [1803. 统计异或值在范围内的数对有多少 - 力扣（LeetCode）](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/) | 字典树 | 困难 | 未解 |
 | [1739. 放置盒子 - 力扣（LeetCode）](https://leetcode.cn/problems/building-boxes/) |  找规律  | 困难 |                 未解                 |
 
 
