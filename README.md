@@ -3,6 +3,7 @@
 | [1752. 检查数组是否经排序和轮转得到](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/) |   模拟   | 简单 | [代码链接](./Simulation/1752.cpp) |
 | [2011. 执行操作后的变量值 - 力扣（LeetCode）](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/) | 模拟 | 简单 | [代码链接](./Simulation/2011.cpp) |
 | [2180. 统计各位数字之和为偶数的整数个数 - 力扣（LeetCode）](https://leetcode.cn/problems/count-integers-with-even-digit-sum/) | 模拟 | 简单 | [代码链接](./Simulation/2180.cpp) |
+| [2299. 强密码检验器 II - 力扣（LeetCode）](https://leetcode.cn/problems/strong-password-checker-ii/) | 模拟 | 简单 | [代码链接](./Simulation/2299.cpp) |
 | [1759. 统计同构子字符串的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-number-of-homogenous-substrings/submissions/) | 双指针 | 中等 | [代码链接](./DoublePointer/1759.cpp) |
 | [1754. 构造字典序最大的合并字符串 - 力扣（LeetCode）](https://leetcode.cn/problems/largest-merge-of-two-strings/) | 贪心 | 中等 | [代码链接](./Greedy/1754.cpp) |
 | [1753. 移除石子的最大得分 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-score-from-removing-stones/) | 贪心 | 中等 | [代码链接](./Recursion/1753.cpp) |
