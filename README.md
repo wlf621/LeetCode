@@ -12,6 +12,7 @@
 | [2032. 至少在两个数组中出现的值 - 力扣（LeetCode）](https://leetcode.cn/problems/two-out-of-three/) | 哈希表 | 简单 | [代码链接](./HashMap/2032.cpp) |
 | [1807. 替换字符串中的括号内容 - 力扣（LeetCode）](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/) | 哈希表 | 中等 | [代码链接](./HashMap/1807.cpp) |
 | [1814. 统计一个数组中好对子的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-nice-pairs-in-an-array/) | 哈希表 | 中等 | [代码链接](./HashMap/1814.cpp) |
+| [1669. 合并两个链表 - 力扣（LeetCode）](https://leetcode.cn/problems/merge-in-between-linked-lists/) | 链表 | 中等 | [代码链接](./LinkList/1669.cpp) |
 | [764. 最大加号标志](https://leetcode.cn/problems/largest-plus-sign/) | 动态规划 | 中等 |  [代码链接](./DP/764.cpp)  |
 | [808. 分汤](https://leetcode.cn/problems/soup-servings/)     | 动态规划 | 中等 |  [代码链接](./DP/808.cpp)  |
 | [1799. N 次操作后的最大分数和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-score-after-n-operations/) | 动态规划 | 困难 | 未解 |
