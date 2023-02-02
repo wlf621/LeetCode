@@ -18,6 +18,7 @@
 | [1799. N 次操作后的最大分数和 - 力扣（LeetCode）](https://leetcode.cn/problems/maximize-score-after-n-operations/) | 动态规划 | 困难 | 未解 |
 | [1803. 统计异或值在范围内的数对有多少 - 力扣（LeetCode）](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/) | 字典树 | 困难 | 未解 |
 | [1739. 放置盒子 - 力扣（LeetCode）](https://leetcode.cn/problems/building-boxes/) |  找规律  | 困难 |                 未解                 |
+| [1129. 颜色交替的最短路径 - 力扣（LeetCode）](https://leetcode.cn/problems/shortest-path-with-alternating-colors/) | BFS | 中等 | [代码链接](./BFS/1129.cpp) |
 
 
 
