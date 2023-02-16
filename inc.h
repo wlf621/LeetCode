@@ -16,3 +16,11 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
+
+ostream& operator<<(ostream &out, const vector<int> &nums)
+{
+    for (auto num : nums) {
+        out << num << " ";
+    }
+    return out;
+}
