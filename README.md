@@ -7,6 +7,8 @@
 | [2341. 数组能形成多少数对 - 力扣（LeetCode）](https://leetcode.cn/problems/maximum-number-of-pairs-in-array/) | 模拟 | 简单 | [代码链接](./Simulation/2341.cpp) |
 | [2373. 矩阵中的局部最大值 - 力扣（LeetCode）](https://leetcode.cn/problems/largest-local-values-in-a-matrix/) | 模拟 | 简单 | [代码链接](./Simulation/2373.cpp) |
 | [面试题 05.02. 二进制数转字符串 - 力扣（LeetCode）](https://leetcode.cn/problems/bianry-number-to-string-lcci/) | 模拟 | 中等 | [代码链接](./Simulation/0502.cpp) |
+| [1096. 花括号展开 II - 力扣（LeetCode）](https://leetcode.cn/problems/brace-expansion-ii/) | 模拟 | 困难 |                 未解                 |
+| [2379. 得到 K 个黑块的最少涂色次数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | 双指针 | 简单 | [代码链接](./DoublePointer/2379.cpp) |
 | [1759. 统计同构子字符串的数目 - 力扣（LeetCode）](https://leetcode.cn/problems/count-number-of-homogenous-substrings/submissions/) |  双指针  | 中等 | [代码链接](./DoublePointer/1759.cpp) |
 | [2027. 转换字符串的最少操作次数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-moves-to-convert-string/) |   贪心   | 简单 |    [代码链接](./Greedy/2027.cpp)     |
 | [1754. 构造字典序最大的合并字符串 - 力扣（LeetCode）](https://leetcode.cn/problems/largest-merge-of-two-strings/) |   贪心   | 中等 |    [代码链接](./Greedy/1754.cpp)     |
