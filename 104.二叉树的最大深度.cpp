@@ -16,27 +16,37 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// class Solution {
+// public:
+//     void dfs(TreeNode* cur, int dep, int &maxD) {
+//         if (cur == nullptr) {
+//             return;
+//         }
+//         if (dep > maxD) {
+//             maxD = dep;
+//         }
+//         if (cur->left != nullptr) {
+//             dfs(cur->left, dep + 1, maxD);
+//         }
+//         if (cur->right != nullptr) {
+//             dfs(cur->right, dep + 1, maxD);
+//         }
+//     }
+
+//     int maxDepth(TreeNode* root) {
+//         int maxD = 0;
+//         dfs(root, 1, maxD);
+//         return maxD;
+//     }
+// };
+
 class Solution {
 public:
-    void dfs(TreeNode* cur, int dep, int &maxD) {
-        if (cur == nullptr) {
-            return;
-        }
-        if (dep > maxD) {
-            maxD = dep;
-        }
-        if (cur->left != nullptr) {
-            dfs(cur->left, dep + 1, maxD);
-        }
-        if (cur->right != nullptr) {
-            dfs(cur->right, dep + 1, maxD);
-        }
-    }
-
     int maxDepth(TreeNode* root) {
-        int maxD = 0;
-        dfs(root, 1, maxD);
-        return maxD;
+        if (root == nullptr) {
+            return 0;
+        }
+        return max(maxDepth(root->left), maxDepth(root->right)) + 1;
     }
 };
 // @lc code=end
