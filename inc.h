@@ -8,6 +8,7 @@
 #include <numeric>
 #include <unordered_set>
 #include <unordered_map>
+#include <stack>
 
 
 // Definition for a binary tree node.

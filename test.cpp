@@ -7,27 +7,39 @@
 // @lc code=start
 class Solution {
 public:
-    vector<vector<int>> generate(int numRows) {
-        vector<vector<int>> yhTriangle(1, vector<int>(1, 1));
-        int col = 2;
-        for (int row = 2; row <= numRows; row++) {
-            vector<int> rows(row);
-            for (int i = 0; i < row; i++ ) {
-                rows[i] = 0;
-                if (i - 1 >= 0) {
-                    rows[i] += yhTriangle[row - 2][i - 1];
-                }
-                if (i < row - 1) {
-                    rows[i] += yhTriangle[row - 2][i];
-                }
-            }
-            yhTriangle.push_back(rows);
+    vector<int> postorderTraversal(TreeNode *root) {
+        vector<int> res;
+        if (root == nullptr) {
+            return res;
         }
-        return yhTriangle;
+
+        stack<TreeNode *> stk;
+        TreeNode *prev = nullptr;
+        while (root != nullptr || !stk.empty()) {
+            while (root != nullptr) {
+                stk.emplace(root);
+                root = root->left;
+            }
+            root = stk.top();
+            stk.pop();
+            if (root->right == nullptr || root->right == prev) {
+                res.emplace_back(root->val);
+                prev = root;
+                root = nullptr;
+            } else {
+                stk.emplace(root);
+                root = root->right;
+            }
+        }
+        return res;
     }
 };
 
 int main() {
     Solution sl;
-    sl.generate(5);
+    TreeNode a(3, nullptr, nullptr);
+    TreeNode e(4, nullptr, nullptr);
+    TreeNode b(2, &a, &e);
+    TreeNode root(1, nullptr, &b);
+    sl.postorderTraversal(&root);
 }
