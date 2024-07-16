@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=118 lang=cpp
+ * @lc app=leetcode.cn id=202 lang=cpp
  *
- * [118] 杨辉三角
+ * [202] 快乐数
  */
 #include "inc.h"
 // @lc code=start
@@ -22,12 +22,5 @@ public:
         return ans == 1;
     }
 };
+// @lc code=end
 
-int main() {
-    Solution sl;
-    TreeNode a(3, nullptr, nullptr);
-    TreeNode e(4, nullptr, nullptr);
-    TreeNode b(2, &a, &e);
-    TreeNode root(1, nullptr, &b);
-    sl.isHappy(19);
-}

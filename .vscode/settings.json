@@ -6,6 +6,7 @@
         "iosfwd": "cpp",
         "*.tcc": "cpp",
         "new": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "stack": "cpp"
     }
 }
