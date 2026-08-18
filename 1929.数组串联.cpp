@@ -1,9 +1,9 @@
 /*
- * @lc app=leetcode.cn id=118 lang=cpp
+ * @lc app=leetcode.cn id=1929 lang=cpp
  *
- * [118] 杨辉三角
+ * [1929] 数组串联
  */
-#include "inc.h"
+
 // @lc code=start
 class Solution {
 public:
@@ -13,9 +13,5 @@ public:
         return ans;
     }
 };
+// @lc code=end
 
-int main() {
-    vector<int> nums{1,2,1};
-    Solution sl;
-    sl.getConcatenation(nums);
-}
